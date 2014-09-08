@@ -1,19 +1,7 @@
-
-                                          宏一电子有限公司
-                                   CIXI HONGYI ELECTRONIXSS CO.,LTD.
-                                      新产品设计物料清单(BOM)
-   
-产品型号(model):%$model       产品描述(description):%$description       项目工程师(engineer):             版本(rev):          page: 
----------------------------------------------------------------------------------------------------------------------------
 .BREAKDOWN
 .titles 物料名称(Description);物料描述(Mterial);物料编号(Item);图纸编号(DWG.);用量(Qt'y per); 单位重量(U/M);来源(From);
 .row %description[-25s];%material[-25s];%wuliao[-20s];%drawing[-18s];%$quantity[-14d];%Mass[-10s];%From[-20s];
 ---------------------------------------------------------------------------------------------------------------------------------------------
-.END
-
-
-
-制定(Constitute):              校对(Checking):                             批准(Approval):
 
 
 

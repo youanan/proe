@@ -1,8 +1,0 @@
-pen 1 color 0.0 0.0 0.0;thickness 0.030 cm;geometry
-pen 2 color 0.0 0.0 0.0;thickness 0.010 cm;letter
-pen 3 pattern 0.15 0.1 0.15 0.1 cm;color 0.0 0.0 0.0;thickness 0.010 cm;hidden line
-pen 4 color 0.0 0.0 0.0;thickness 0.010 cm;highlight-primary
-pen 5 color 0.0 0.0 0.0;thickness 0.010 cm;intrinsic
-pen 6 color 0.0 0.0 0.0;thickness 0.010 cm;curve
-pen 7 color 0.0 0.0 0.0;thickness 0.010 cm;highlight-edge
-pen 8 color 0.0 0.0 0.0;thickness 0.010 cm;sketched

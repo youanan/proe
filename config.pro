@@ -1,11 +1,12 @@
-﻿trail_dir D:\pro.e\\Trail
-pro_colormap_path D:\pro.e\\Config
-pro_plot_config_dir D:\pro.e\\Config
-pro_dtl_setup_dir D:\pro.e\\Config
-mdl_tree_cfg_file D:\pro.e\\Config\tree.cfg
-system_colors_file D:\pro.e\\Config\syscol.scl
-drawing_setup_file D:\pro.e\\Config\cns-mine.dtl
-pen_table_file D:\pro.e\\Config\table.pnt
+﻿trail_dir D:\pro.e\ConfigFiles\Trail
+trail_dir D:\pro.e\ConfigFiles\Trail
+pro_colormap_path D:\pro.e\ConfigFiles\Config
+pro_plot_config_dir D:\pro.e\ConfigFiles\Config
+pro_dtl_setup_dir D:\pro.e\ConfigFiles\Config
+mdl_tree_cfg_file D:\pro.e\ConfigFiles\Config\tree.cfg
+system_colors_file D:\pro.e\ConfigFiles\Config\syscol.scl
+drawing_setup_file D:\pro.e\ConfigFiles\Config\cns-mine.dtl
+pen_table_file D:\pro.e\ConfigFiles\Config\table.pnt
 file_open_default_folder working_directory
 template_designasm mmns_asm_design.asm
 template_drawing a4_drawing.drw
@@ -54,17 +55,15 @@ pen6_line_weight 1
 pen7_line_weight 1
 pen8_line_weight 1
 enable_offset_fan_curve yes
-intf3d_show_import_log  no
+intf3d_show_import_log no
 step_export_format ap214_cd
 mapkey hotkeyselectnone ~ Activate `main_dlg_cur` `Edit.Find`;\
 mapkey(continued) ~ Input `selspecdlg0` `ExtRulesLayout.ExtBasicNameLayout.BasicNameList` \
 mapkey(continued) `ABCDEFG`;\
 mapkey(continued) ~ Update `selspecdlg0` `ExtRulesLayout.ExtBasicNameLayout.BasicNameList` \
-mapkey(continued) `ABCDEFG`;\
-mapkey(continued) ~ Activate `selspecdlg0` `EvaluateBtn`;\
+mapkey(continued) `ABCDEFG`;~ Activate `selspecdlg0` `EvaluateBtn`;\
 mapkey(continued) ~ Select `selspecdlg0` `SelectedItemsList` -1 ;\
-mapkey(continued) ~ Activate `selspecdlg0` `DeleteBtn`;\
-mapkey(continued) ~ Activate `selspecdlg0` `CancelButton`;
+mapkey(continued) ~ Activate `selspecdlg0` `DeleteBtn`;~ Activate `selspecdlg0` `CancelButton`;
 mapkey hotkeyselectfront ~ Activate `main_dlg_cur` `Edit.Find`;\
 mapkey(continued) ~ Select `selspecdlg0` `SelOptionRadio` 1  `Datum`;\
 mapkey(continued) ~ Select `selspecdlg0` `LookByOptionMenu` 1  `Datum`;\
@@ -73,13 +72,10 @@ mapkey(continued) == `;\
 mapkey(continued) ~ Input `selspecdlg0` `ExtRulesLayout.ExtBasicNameLayout.BasicNameList` \
 mapkey(continued) `FRONT`;\
 mapkey(continued) ~ Update `selspecdlg0` `ExtRulesLayout.ExtBasicNameLayout.BasicNameList` \
-mapkey(continued) `FRONT`;\
-mapkey(continued) ~ Activate `selspecdlg0` `EvaluateBtn`;\
+mapkey(continued) `FRONT`;~ Activate `selspecdlg0` `EvaluateBtn`;\
 mapkey(continued) ~ Select `selspecdlg0` `SelectedItemsList` -1 ;\
-mapkey(continued) ~ Activate `selspecdlg0` `DeleteBtn`;\
-mapkey(continued) ~ Select `selspecdlg0` `ResultList` -1;\
-mapkey(continued) ~ Activate `selspecdlg0` `ApplyBtn`;\
-mapkey(continued) ~ Activate `selspecdlg0` `CancelButton`;
+mapkey(continued) ~ Activate `selspecdlg0` `DeleteBtn`;~ Select `selspecdlg0` `ResultList` -1;\
+mapkey(continued) ~ Activate `selspecdlg0` `ApplyBtn`;~ Activate `selspecdlg0` `CancelButton`;
 mapkey hotkeyselectright ~ Activate `main_dlg_cur` `Edit.Find`;\
 mapkey(continued) ~ Select `selspecdlg0` `SelOptionRadio` 1  `Datum`;\
 mapkey(continued) ~ Select `selspecdlg0` `LookByOptionMenu` 1  `Datum`;\
@@ -88,13 +84,10 @@ mapkey(continued) == `;\
 mapkey(continued) ~ Input `selspecdlg0` `ExtRulesLayout.ExtBasicNameLayout.BasicNameList` \
 mapkey(continued) `RIGHT`;\
 mapkey(continued) ~ Update `selspecdlg0` `ExtRulesLayout.ExtBasicNameLayout.BasicNameList` \
-mapkey(continued) `RIGHT`;\
-mapkey(continued) ~ Activate `selspecdlg0` `EvaluateBtn`;\
+mapkey(continued) `RIGHT`;~ Activate `selspecdlg0` `EvaluateBtn`;\
 mapkey(continued) ~ Select `selspecdlg0` `SelectedItemsList` -1 ;\
-mapkey(continued) ~ Activate `selspecdlg0` `DeleteBtn`;\
-mapkey(continued) ~ Select `selspecdlg0` `ResultList` -1;\
-mapkey(continued) ~ Activate `selspecdlg0` `ApplyBtn`;\
-mapkey(continued) ~ Activate `selspecdlg0` `CancelButton`;
+mapkey(continued) ~ Activate `selspecdlg0` `DeleteBtn`;~ Select `selspecdlg0` `ResultList` -1;\
+mapkey(continued) ~ Activate `selspecdlg0` `ApplyBtn`;~ Activate `selspecdlg0` `CancelButton`;
 mapkey hotkeyselecttop ~ Activate `main_dlg_cur` `Edit.Find`;\
 mapkey(continued) ~ Select `selspecdlg0` `SelOptionRadio` 1  `Datum`;\
 mapkey(continued) ~ Select `selspecdlg0` `LookByOptionMenu` 1  `Datum`;\
@@ -103,13 +96,10 @@ mapkey(continued) == `;\
 mapkey(continued) ~ Input `selspecdlg0` `ExtRulesLayout.ExtBasicNameLayout.BasicNameList` \
 mapkey(continued) `TOP`;\
 mapkey(continued) ~ Update `selspecdlg0` `ExtRulesLayout.ExtBasicNameLayout.BasicNameList` \
-mapkey(continued) `TOP`;\
-mapkey(continued) ~ Activate `selspecdlg0` `EvaluateBtn`;\
+mapkey(continued) `TOP`;~ Activate `selspecdlg0` `EvaluateBtn`;\
 mapkey(continued) ~ Select `selspecdlg0` `SelectedItemsList` -1 ;\
-mapkey(continued) ~ Activate `selspecdlg0` `DeleteBtn`;\
-mapkey(continued) ~ Select `selspecdlg0` `ResultList` -1;\
-mapkey(continued) ~ Activate `selspecdlg0` `ApplyBtn`;\
-mapkey(continued) ~ Activate `selspecdlg0` `CancelButton`;
+mapkey(continued) ~ Activate `selspecdlg0` `DeleteBtn`;~ Select `selspecdlg0` `ResultList` -1;\
+mapkey(continued) ~ Activate `selspecdlg0` `ApplyBtn`;~ Activate `selspecdlg0` `CancelButton`;
 mapkey hotkeyselectcoord ~ Activate `main_dlg_cur` `Edit.Find`;\
 mapkey(continued) ~ Select `selspecdlg0` `SelOptionRadio` 1  `Coord Sys`;\
 mapkey(continued) ~ Select `selspecdlg0` `LookByOptionMenu` 1  `Coord Sys`;\
@@ -118,32 +108,25 @@ mapkey(continued) == `;\
 mapkey(continued) ~ Input `selspecdlg0` `ExtRulesLayout.ExtBasicNameLayout.BasicNameList` \
 mapkey(continued) `DEFCS`;\
 mapkey(continued) ~ Update `selspecdlg0` `ExtRulesLayout.ExtBasicNameLayout.BasicNameList` \
-mapkey(continued) `DEFCS`;\
-mapkey(continued) ~ Activate `selspecdlg0` `EvaluateBtn`;\
+mapkey(continued) `DEFCS`;~ Activate `selspecdlg0` `EvaluateBtn`;\
 mapkey(continued) ~ Select `selspecdlg0` `SelectedItemsList` -1 ;\
-mapkey(continued) ~ Activate `selspecdlg0` `DeleteBtn`;\
-mapkey(continued) ~ Select `selspecdlg0` `ResultList` -1;\
-mapkey(continued) ~ Activate `selspecdlg0` `ApplyBtn`;\
-mapkey(continued) ~ Activate `selspecdlg0` `CancelButton`;
-mapkey hotkeysetmmnscover ~ Command `ProCmdMmSetup`;\
-mapkey(continued) #UNITS;\
+mapkey(continued) ~ Activate `selspecdlg0` `DeleteBtn`;~ Select `selspecdlg0` `ResultList` -1;\
+mapkey(continued) ~ Activate `selspecdlg0` `ApplyBtn`;~ Activate `selspecdlg0` `CancelButton`;
+mapkey hotkeysetmmnscover ~ Command `ProCmdMmSetup`;#UNITS;\
 mapkey(continued) ~ Select `um_finder` `Sys_UnitsTab` 1  `SystemsLayout`;\
 mapkey(continued) ~ Select `um_finder` `SystemsFinderList` 1  `sysunits3`;\
 mapkey(continued) ~ Activate `um_finder` `PrincipalPush`;\
 mapkey(continued) ~ Activate `um_sys_conv_new` `um_sys_conv_new`;\
 mapkey(continued) ~ Select `um_sys_conv_new` `ConvertRadio` 1  `convert numbers`;\
-mapkey(continued) ~ Activate `um_sys_conv_new` `OKStd`;\
-mapkey(continued) ~ Activate `um_finder` `ClosePush`;\
+mapkey(continued) ~ Activate `um_sys_conv_new` `OKStd`;~ Activate `um_finder` `ClosePush`;\
 mapkey(continued) #DONE;
-mapkey hotkeysetmmnsuncover ~ Command `ProCmdMmSetup`;\
-mapkey(continued) #UNITS;\
+mapkey hotkeysetmmnsuncover ~ Command `ProCmdMmSetup`;#UNITS;\
 mapkey(continued) ~ Select `um_finder` `Sys_UnitsTab` 1  `SystemsLayout`;\
 mapkey(continued) ~ Select `um_finder` `SystemsFinderList` 1  `sysunits3`;\
 mapkey(continued) ~ Activate `um_finder` `PrincipalPush`;\
 mapkey(continued) ~ Activate `um_sys_conv_new` `um_sys_conv_new`;\
 mapkey(continued) ~ Select `um_sys_conv_new` `ConvertRadio` 1  `interpret numbers`;\
-mapkey(continued) ~ Activate `um_sys_conv_new` `OKStd`;\
-mapkey(continued) ~ Activate `um_finder` `ClosePush`;\
+mapkey(continued) ~ Activate `um_sys_conv_new` `OKStd`;~ Activate `um_finder` `ClosePush`;\
 mapkey(continued) #DONE;
 mapkey fxf ~ Command `ProCmdFtExtrude`;\
 mapkey(continued) ~ Input `main_dlg_cur` `maindashInst0.def_depth1_ip` `30`;\
@@ -151,10 +134,8 @@ mapkey(continued) ~ Update `main_dlg_cur` `maindashInst0.def_depth1_ip` `30`;\
 mapkey(continued) ~ Activate `main_dlg_cur` `maindashInst0.def_depth1_ip`;\
 mapkey(continued) ~ Activate `main_dlg_cur` `chkbn.extrev_1_placement.0` 1;\
 mapkey(continued) ~ Activate `extrev_1_placement.0.0` `PH.Sketch`;\
-mapkey(continued) ~ FocusIn `Odui_Dlg_01` `t1.PlnMru`;\
-mapkey(continued) %hotkeyselectfront;\
-mapkey(continued) ~ FocusIn `Odui_Dlg_01` `t1.RefMru`;\
-mapkey(continued) %hotkeyselecttop;\
+mapkey(continued) ~ FocusIn `Odui_Dlg_01` `t1.PlnMru`;%hotkeyselectfront;\
+mapkey(continued) ~ FocusIn `Odui_Dlg_01` `t1.RefMru`;%hotkeyselecttop;\
 mapkey(continued) ~ Select `Odui_Dlg_01` `t1.SkViewOM` 1 `Top`;\
 mapkey(continued) ~ Activate `Odui_Dlg_01` `stdbtn_1`;
 mapkey fxr ~ Command `ProCmdFtExtrude`;\
@@ -163,10 +144,8 @@ mapkey(continued) ~ Update `main_dlg_cur` `maindashInst0.def_depth1_ip` `30`;\
 mapkey(continued) ~ Activate `main_dlg_cur` `maindashInst0.def_depth1_ip`;\
 mapkey(continued) ~ Activate `main_dlg_cur` `chkbn.extrev_1_placement.0` 1;\
 mapkey(continued) ~ Activate `extrev_1_placement.0.0` `PH.Sketch`;\
-mapkey(continued) ~ FocusIn `Odui_Dlg_01` `t1.PlnMru`;\
-mapkey(continued) %hotkeyselectright;\
-mapkey(continued) ~ FocusIn `Odui_Dlg_01` `t1.RefMru`;\
-mapkey(continued) %hotkeyselecttop;\
+mapkey(continued) ~ FocusIn `Odui_Dlg_01` `t1.PlnMru`;%hotkeyselectright;\
+mapkey(continued) ~ FocusIn `Odui_Dlg_01` `t1.RefMru`;%hotkeyselecttop;\
 mapkey(continued) ~ Select `Odui_Dlg_01` `t1.SkViewOM` 1 `Top`;\
 mapkey(continued) ~ Activate `Odui_Dlg_01` `stdbtn_1`;
 mapkey fxt ~ Command `ProCmdFtExtrude`;\
@@ -175,10 +154,8 @@ mapkey(continued) ~ Update `main_dlg_cur` `maindashInst0.def_depth1_ip` `30`;\
 mapkey(continued) ~ Activate `main_dlg_cur` `maindashInst0.def_depth1_ip`;\
 mapkey(continued) ~ Activate `main_dlg_cur` `chkbn.extrev_1_placement.0` 1;\
 mapkey(continued) ~ Activate `extrev_1_placement.0.0` `PH.Sketch`;\
-mapkey(continued) ~ FocusIn `Odui_Dlg_01` `t1.PlnMru`;\
-mapkey(continued) %hotkeyselecttop;\
-mapkey(continued) ~ FocusIn `Odui_Dlg_01` `t1.RefMru`;\
-mapkey(continued) %hotkeyselectright;\
+mapkey(continued) ~ FocusIn `Odui_Dlg_01` `t1.PlnMru`;%hotkeyselecttop;\
+mapkey(continued) ~ FocusIn `Odui_Dlg_01` `t1.RefMru`;%hotkeyselectright;\
 mapkey(continued) ~ Select `Odui_Dlg_01` `t1.SkViewOM` 1 `Right`;\
 mapkey(continued) ~ Activate `Odui_Dlg_01` `stdbtn_1`;
 mapkey fxz ~ Command `ProCmdFtExtrude`;\
@@ -194,10 +171,8 @@ mapkey(continued) ~ Update `main_dlg_cur` `maindashInst0.def_depth1_ip` `360`;\
 mapkey(continued) ~ Activate `main_dlg_cur` `maindashInst0.def_depth1_ip`;\
 mapkey(continued) ~ Activate `main_dlg_cur` `chkbn.revolve_1_placement.0` 1;\
 mapkey(continued) ~ Activate `revolve_1_placement.0.0` `PH.Sketch`;\
-mapkey(continued) ~ FocusIn `Odui_Dlg_01` `t1.PlnMru`;\
-mapkey(continued) %hotkeyselectfront;\
-mapkey(continued) ~ FocusIn `Odui_Dlg_01` `t1.RefMru`;\
-mapkey(continued) %hotkeyselecttop;\
+mapkey(continued) ~ FocusIn `Odui_Dlg_01` `t1.PlnMru`;%hotkeyselectfront;\
+mapkey(continued) ~ FocusIn `Odui_Dlg_01` `t1.RefMru`;%hotkeyselecttop;\
 mapkey(continued) ~ Select `Odui_Dlg_01` `t1.SkViewOM` 1 `Top`;\
 mapkey(continued) ~ Activate `Odui_Dlg_01` `stdbtn_1`;
 mapkey fzr ~ Command `ProCmdFtRevolve`;\
@@ -206,10 +181,8 @@ mapkey(continued) ~ Update `main_dlg_cur` `maindashInst0.def_depth1_ip` `360`;\
 mapkey(continued) ~ Activate `main_dlg_cur` `maindashInst0.def_depth1_ip`;\
 mapkey(continued) ~ Activate `main_dlg_cur` `chkbn.revolve_1_placement.0` 1;\
 mapkey(continued) ~ Activate `revolve_1_placement.0.0` `PH.Sketch`;\
-mapkey(continued) ~ FocusIn `Odui_Dlg_01` `t1.PlnMru`;\
-mapkey(continued) %hotkeyselectright;\
-mapkey(continued) ~ FocusIn `Odui_Dlg_01` `t1.RefMru`;\
-mapkey(continued) %hotkeyselecttop;\
+mapkey(continued) ~ FocusIn `Odui_Dlg_01` `t1.PlnMru`;%hotkeyselectright;\
+mapkey(continued) ~ FocusIn `Odui_Dlg_01` `t1.RefMru`;%hotkeyselecttop;\
 mapkey(continued) ~ Select `Odui_Dlg_01` `t1.SkViewOM` 1 `Top`;\
 mapkey(continued) ~ Activate `Odui_Dlg_01` `stdbtn_1`;
 mapkey fzt ~ Command `ProCmdFtRevolve`;\
@@ -218,10 +191,8 @@ mapkey(continued) ~ Update `main_dlg_cur` `maindashInst0.def_depth1_ip` `360`;\
 mapkey(continued) ~ Activate `main_dlg_cur` `maindashInst0.def_depth1_ip`;\
 mapkey(continued) ~ Activate `main_dlg_cur` `chkbn.revolve_1_placement.0` 1;\
 mapkey(continued) ~ Activate `revolve_1_placement.0.0` `PH.Sketch`;\
-mapkey(continued) ~ FocusIn `Odui_Dlg_01` `t1.PlnMru`;\
-mapkey(continued) %hotkeyselecttop;\
-mapkey(continued) ~ FocusIn `Odui_Dlg_01` `t1.RefMru`;\
-mapkey(continued) %hotkeyselectright;\
+mapkey(continued) ~ FocusIn `Odui_Dlg_01` `t1.PlnMru`;%hotkeyselecttop;\
+mapkey(continued) ~ FocusIn `Odui_Dlg_01` `t1.RefMru`;%hotkeyselectright;\
 mapkey(continued) ~ Select `Odui_Dlg_01` `t1.SkViewOM` 1 `Right`;\
 mapkey(continued) ~ Activate `Odui_Dlg_01` `stdbtn_1`;
 mapkey fzz ~ Command `ProCmdFtRevolve`;\
@@ -281,11 +252,9 @@ mapkey fef ~ Command `ProCmdChamferCorner`;
 mapkey frz ~ Command `ProCmdAnnotationFeat`;
 mapkey frv ~ Command `ProCmdFtMirror`;
 mapkey frx ~ Command `ProCmdFtPattern`;
-mapkey eq ~ Command `ProCmdSuppress`;\
-mapkey(continued) ~ Activate `del_sup_msg` `ok`;
+mapkey eq ~ Command `ProCmdSuppress`;~ Activate `del_sup_msg` `ok`;
 mapkey ew ~ Command `ProCmdResume`;
-mapkey fer ~ Command `ProCmdEditDelete` ;\
-mapkey(continued) ~ Activate `del_sup_msg` `ok`;
+mapkey fer ~ Command `ProCmdEditDelete` ;~ Activate `del_sup_msg` `ok`;
 mapkey frd ~ Activate `main_dlg_cur` `Redefine`;
 mapkey frs ~ Activate `main_dlg_cur` `Redefine`;\
 mapkey(continued) ~ Activate `main_dlg_cur` `chkbn.extrev_1_placement.0` 1;\
@@ -327,24 +296,19 @@ mapkey sd ~ Command `ProCmdSketDimension` 1;
 mapkey sed ~ Command `ProCmdSketDimRef` 1;
 mapkey sjd ~ Command `ProCmdSketBaseline`;
 mapkey sred ~ Command `ProCmdEditModify` 1;\
-mapkey(continued) ~ Activate `ui_dynmod` `AutoUpdCB` 0;\
-mapkey(continued) ~ Activate `ui_dynmod` `ui_dynmod`;
+mapkey(continued) ~ Activate `ui_dynmod` `AutoUpdCB` 0;~ Activate `ui_dynmod` `ui_dynmod`;
 mapkey ssv ~ Command `ProCmdSketConstrain` 1;\
 mapkey(continued) ~ Activate `sk_amp` `VerticalPhB`;
-mapkey ssh ~ Command `ProCmdSketConstrain` 1;\
-mapkey(continued) ~ Activate `sk_amp` `HorizPhB`;
+mapkey ssh ~ Command `ProCmdSketConstrain` 1;~ Activate `sk_amp` `HorizPhB`;
 mapkey ssc ~ Command `ProCmdSketConstrain` 1;\
 mapkey(continued) ~ Activate `sk_amp` `PerpendPhB`;
 mapkey sst ~ Command `ProCmdSketConstrain` 1;\
 mapkey(continued) ~ Activate `sk_amp` `TangentPhB`;
-mapkey ssz ~ Command `ProCmdSketConstrain` 1;\
-mapkey(continued) ~ Activate `sk_amp` `MidPntPhB`;
-mapkey ssg ~ Command `ProCmdSketConstrain` 1;\
-mapkey(continued) ~ Activate `sk_amp` `AlignePhB`;
+mapkey ssz ~ Command `ProCmdSketConstrain` 1;~ Activate `sk_amp` `MidPntPhB`;
+mapkey ssg ~ Command `ProCmdSketConstrain` 1;~ Activate `sk_amp` `AlignePhB`;
 mapkey ssd ~ Command `ProCmdSketConstrain` 1;\
 mapkey(continued) ~ Activate `sk_amp` `SymmetryPhB`;
-mapkey ssx ~ Command `ProCmdSketConstrain` 1;\
-mapkey(continued) ~ Activate `sk_amp` `EqualPhB`;
+mapkey ssx ~ Command `ProCmdSketConstrain` 1;~ Activate `sk_amp` `EqualPhB`;
 mapkey ssp ~ Command `ProCmdSketConstrain` 1;\
 mapkey(continued) ~ Activate `sk_amp` `ParallelPhB`;
 mapkey sss ~ Command `ProCmdSketConstrain` 1;
@@ -363,12 +327,9 @@ mapkey stt ~ Command `ProCmdEditReplace`;
 mapkey sq ~ Command `ProCmdSketQuit`;
 mapkey sw ~ Command `ProCmdSketDone`;
 mapkey seq ~ Command `ProCmdSketSetup`;
-mapkey sexq ~ Command `ProCmdSketSetup`;\
-mapkey(continued) ~ Activate `Odui_Dlg_00` `t1.FlipB`;\
-mapkey(continued) ~ Activate `Odui_Dlg_00` `stdbtn_1`;\
-mapkey(continued) ~ Activate `Odui_Dlg_01` `t1.FlipB`;\
-mapkey(continued) ~ Activate `Odui_Dlg_01` `stdbtn_1`;\
-mapkey(continued) ~ Activate `GET SELECT` `done_sel`;
+mapkey sexq ~ Command `ProCmdSketSetup`;~ Activate `Odui_Dlg_00` `t1.FlipB`;\
+mapkey(continued) ~ Activate `Odui_Dlg_00` `stdbtn_1`;~ Activate `Odui_Dlg_01` `t1.FlipB`;\
+mapkey(continued) ~ Activate `Odui_Dlg_01` `stdbtn_1`;~ Activate `GET SELECT` `done_sel`;
 mapkey sew ~ Command `ProCmdSketReferences`;
 mapkey so ~ Command `ProCmdEnvSktPrf`;
 mapkey gxf ~ Command `ProCmdFtExtrude`;\
@@ -378,10 +339,8 @@ mapkey(continued) ~ Update `main_dlg_cur` `maindashInst0.def_depth1_ip` `30`;\
 mapkey(continued) ~ Activate `main_dlg_cur` `maindashInst0.def_depth1_ip`;\
 mapkey(continued) ~ Activate `main_dlg_cur` `chkbn.extrev_1_placement.0` 1;\
 mapkey(continued) ~ Activate `extrev_1_placement.0.0` `PH.Sketch`;\
-mapkey(continued) ~ FocusIn `Odui_Dlg_01` `t1.PlnMru`;\
-mapkey(continued) %hotkeyselectfront;\
-mapkey(continued) ~ FocusIn `Odui_Dlg_01` `t1.RefMru`;\
-mapkey(continued) %hotkeyselecttop;\
+mapkey(continued) ~ FocusIn `Odui_Dlg_01` `t1.PlnMru`;%hotkeyselectfront;\
+mapkey(continued) ~ FocusIn `Odui_Dlg_01` `t1.RefMru`;%hotkeyselecttop;\
 mapkey(continued) ~ Select `Odui_Dlg_01` `t1.SkViewOM` 1 `Top`;\
 mapkey(continued) ~ Activate `Odui_Dlg_01` `stdbtn_1`;
 mapkey gxr ~ Command `ProCmdFtExtrude`;\
@@ -391,10 +350,8 @@ mapkey(continued) ~ Update `main_dlg_cur` `maindashInst0.def_depth1_ip` `30`;\
 mapkey(continued) ~ Activate `main_dlg_cur` `maindashInst0.def_depth1_ip`;\
 mapkey(continued) ~ Activate `main_dlg_cur` `chkbn.extrev_1_placement.0` 1;\
 mapkey(continued) ~ Activate `extrev_1_placement.0.0` `PH.Sketch`;\
-mapkey(continued) ~ FocusIn `Odui_Dlg_01` `t1.PlnMru`;\
-mapkey(continued) %hotkeyselectright;\
-mapkey(continued) ~ FocusIn `Odui_Dlg_01` `t1.RefMru`;\
-mapkey(continued) %hotkeyselecttop;\
+mapkey(continued) ~ FocusIn `Odui_Dlg_01` `t1.PlnMru`;%hotkeyselectright;\
+mapkey(continued) ~ FocusIn `Odui_Dlg_01` `t1.RefMru`;%hotkeyselecttop;\
 mapkey(continued) ~ Select `Odui_Dlg_01` `t1.SkViewOM` 1 `Top`;\
 mapkey(continued) ~ Activate `Odui_Dlg_01` `stdbtn_1`;
 mapkey gxt ~ Command `ProCmdFtExtrude`;\
@@ -404,10 +361,8 @@ mapkey(continued) ~ Update `main_dlg_cur` `maindashInst0.def_depth1_ip` `30`;\
 mapkey(continued) ~ Activate `main_dlg_cur` `maindashInst0.def_depth1_ip`;\
 mapkey(continued) ~ Activate `main_dlg_cur` `chkbn.extrev_1_placement.0` 1;\
 mapkey(continued) ~ Activate `extrev_1_placement.0.0` `PH.Sketch`;\
-mapkey(continued) ~ FocusIn `Odui_Dlg_01` `t1.PlnMru`;\
-mapkey(continued) %hotkeyselecttop;\
-mapkey(continued) ~ FocusIn `Odui_Dlg_01` `t1.RefMru`;\
-mapkey(continued) %hotkeyselectright;\
+mapkey(continued) ~ FocusIn `Odui_Dlg_01` `t1.PlnMru`;%hotkeyselecttop;\
+mapkey(continued) ~ FocusIn `Odui_Dlg_01` `t1.RefMru`;%hotkeyselectright;\
 mapkey(continued) ~ Select `Odui_Dlg_01` `t1.SkViewOM` 1 `Right`;\
 mapkey(continued) ~ Activate `Odui_Dlg_01` `stdbtn_1`;
 mapkey gxz ~ Command `ProCmdFtExtrude`;\
@@ -425,10 +380,8 @@ mapkey(continued) ~ Update `main_dlg_cur` `maindashInst0.def_depth1_ip` `360`;\
 mapkey(continued) ~ Activate `main_dlg_cur` `maindashInst0.def_depth1_ip`;\
 mapkey(continued) ~ Activate `main_dlg_cur` `chkbn.revolve_1_placement.0` 1;\
 mapkey(continued) ~ Activate `revolve_1_placement.0.0` `PH.Sketch`;\
-mapkey(continued) ~ FocusIn `Odui_Dlg_01` `t1.PlnMru`;\
-mapkey(continued) %hotkeyselectfront;\
-mapkey(continued) ~ FocusIn `Odui_Dlg_01` `t1.RefMru`;\
-mapkey(continued) %hotkeyselecttop;\
+mapkey(continued) ~ FocusIn `Odui_Dlg_01` `t1.PlnMru`;%hotkeyselectfront;\
+mapkey(continued) ~ FocusIn `Odui_Dlg_01` `t1.RefMru`;%hotkeyselecttop;\
 mapkey(continued) ~ Select `Odui_Dlg_01` `t1.SkViewOM` 1 `Top`;\
 mapkey(continued) ~ Activate `Odui_Dlg_01` `stdbtn_1`;
 mapkey gzr ~ Command `ProCmdFtRevolve`;\
@@ -438,10 +391,8 @@ mapkey(continued) ~ Update `main_dlg_cur` `maindashInst0.def_depth1_ip` `360`;\
 mapkey(continued) ~ Activate `main_dlg_cur` `maindashInst0.def_depth1_ip`;\
 mapkey(continued) ~ Activate `main_dlg_cur` `chkbn.revolve_1_placement.0` 1;\
 mapkey(continued) ~ Activate `revolve_1_placement.0.0` `PH.Sketch`;\
-mapkey(continued) ~ FocusIn `Odui_Dlg_01` `t1.PlnMru`;\
-mapkey(continued) %hotkeyselectright;\
-mapkey(continued) ~ FocusIn `Odui_Dlg_01` `t1.RefMru`;\
-mapkey(continued) %hotkeyselecttop;\
+mapkey(continued) ~ FocusIn `Odui_Dlg_01` `t1.PlnMru`;%hotkeyselectright;\
+mapkey(continued) ~ FocusIn `Odui_Dlg_01` `t1.RefMru`;%hotkeyselecttop;\
 mapkey(continued) ~ Select `Odui_Dlg_01` `t1.SkViewOM` 1 `Top`;\
 mapkey(continued) ~ Activate `Odui_Dlg_01` `stdbtn_1`;
 mapkey gzt ~ Command `ProCmdFtRevolve`;\
@@ -451,10 +402,8 @@ mapkey(continued) ~ Update `main_dlg_cur` `maindashInst0.def_depth1_ip` `360`;\
 mapkey(continued) ~ Activate `main_dlg_cur` `maindashInst0.def_depth1_ip`;\
 mapkey(continued) ~ Activate `main_dlg_cur` `chkbn.revolve_1_placement.0` 1;\
 mapkey(continued) ~ Activate `revolve_1_placement.0.0` `PH.Sketch`;\
-mapkey(continued) ~ FocusIn `Odui_Dlg_01` `t1.PlnMru`;\
-mapkey(continued) %hotkeyselecttop;\
-mapkey(continued) ~ FocusIn `Odui_Dlg_01` `t1.RefMru`;\
-mapkey(continued) %hotkeyselectright;\
+mapkey(continued) ~ FocusIn `Odui_Dlg_01` `t1.PlnMru`;%hotkeyselecttop;\
+mapkey(continued) ~ FocusIn `Odui_Dlg_01` `t1.RefMru`;%hotkeyselectright;\
 mapkey(continued) ~ Select `Odui_Dlg_01` `t1.SkViewOM` 1 `Right`;\
 mapkey(continued) ~ Activate `Odui_Dlg_01` `stdbtn_1`;
 mapkey gzz ~ Command `ProCmdFtRevolve`;\
@@ -512,24 +461,18 @@ mapkey(continued) ~ Select `drawing_view` `options_list` 1  `Section`;\
 mapkey(continued) ~ Select `drawing_view` `sec_options_rad` 1  `cross_sec`;\
 mapkey(continued) ~ Activate `drawing_view` `add_section`;
 mapkey bsf ~ Command `ProCmdDatumSketCurve`;\
-mapkey(continued) ~ FocusIn `Odui_Dlg_00` `t1.PlnMru`;\
-mapkey(continued) %hotkeyselectfront;\
-mapkey(continued) ~ FocusIn `Odui_Dlg_00` `t1.RefMru`;\
-mapkey(continued) %hotkeyselecttop;\
+mapkey(continued) ~ FocusIn `Odui_Dlg_00` `t1.PlnMru`;%hotkeyselectfront;\
+mapkey(continued) ~ FocusIn `Odui_Dlg_00` `t1.RefMru`;%hotkeyselecttop;\
 mapkey(continued) ~ Select `Odui_Dlg_00` `t1.SkViewOM` 1 `Top`;\
 mapkey(continued) ~ Activate `Odui_Dlg_00` `stdbtn_1`;
 mapkey bsr ~ Command `ProCmdDatumSketCurve`;\
-mapkey(continued) ~ FocusIn `Odui_Dlg_00` `t1.PlnMru`;\
-mapkey(continued) %hotkeyselectright;\
-mapkey(continued) ~ FocusIn `Odui_Dlg_00` `t1.RefMru`;\
-mapkey(continued) %hotkeyselecttop;\
+mapkey(continued) ~ FocusIn `Odui_Dlg_00` `t1.PlnMru`;%hotkeyselectright;\
+mapkey(continued) ~ FocusIn `Odui_Dlg_00` `t1.RefMru`;%hotkeyselecttop;\
 mapkey(continued) ~ Select `Odui_Dlg_00` `t1.SkViewOM` 1 `Top`;\
 mapkey(continued) ~ Activate `Odui_Dlg_00` `stdbtn_1`;
 mapkey bst ~ Command `ProCmdDatumSketCurve`;\
-mapkey(continued) ~ FocusIn `Odui_Dlg_00` `t1.PlnMru`;\
-mapkey(continued) %hotkeyselecttop;\
-mapkey(continued) ~ FocusIn `Odui_Dlg_00` `t1.RefMru`;\
-mapkey(continued) %hotkeyselectright;\
+mapkey(continued) ~ FocusIn `Odui_Dlg_00` `t1.PlnMru`;%hotkeyselecttop;\
+mapkey(continued) ~ FocusIn `Odui_Dlg_00` `t1.RefMru`;%hotkeyselectright;\
 mapkey(continued) ~ Select `Odui_Dlg_00` `t1.SkViewOM` 1 `Right`;\
 mapkey(continued) ~ Activate `Odui_Dlg_00` `stdbtn_1`;
 mapkey bsz ~ Command `ProCmdDatumSketCurve`;\
@@ -541,11 +484,9 @@ mapkey bcb ~ Command `ProCmdDatumCurve`;
 mapkey bcc ~ Command `ProCmdDatumPointGeneral`;
 mapkey bcv ~ Command `ProCmdDatumCsys`;
 mapkey bcfz @MANUAL_PAUSE请将要使用的坐标系改名未“DEFCS”，然后继续...;\
-mapkey(continued) %hotkeyselectnone;\
-mapkey(continued) ~ Command `ProCmdDatumPlane` ;\
+mapkey(continued) %hotkeyselectnone;~ Command `ProCmdDatumPlane` ;\
 mapkey(continued) ~ FocusIn `Odui_Dlg_00` `t1.constrs_table`;\
-mapkey(continued) ~ Trigger `Odui_Dlg_00` `t1.constrs_table`2  `` ``;\
-mapkey(continued) %hotkeyselectcoord;\
+mapkey(continued) ~ Trigger `Odui_Dlg_00` `t1.constrs_table`2  `` ``;%hotkeyselectcoord;\
 mapkey(continued) ~ Select `Odui_Dlg_00` `t1.constr_type1` 1  `Offset`;\
 mapkey(continued) ~ Select `Odui_Dlg_00` `t1.constr_csys_axis`1  `Axis_Z`;\
 mapkey(continued) ~ Input `Odui_Dlg_00` `t1.constr_dim1` `0`;\
@@ -557,11 +498,9 @@ mapkey(continued) ~ Update `Odui_Dlg_00` `t3.datum_plane_name` `Front`;\
 mapkey(continued) ~ Activate `Odui_Dlg_00` `t3.datum_plane_name`;\
 mapkey(continued) ~ Activate `Odui_Dlg_00` `stdbtn_1`;
 mapkey bcrz @MANUAL_PAUSE请将要使用的坐标系改名未“DEFCS”，然后继续...;\
-mapkey(continued) %hotkeyselectnone;\
-mapkey(continued) ~ Command `ProCmdDatumPlane` ;\
+mapkey(continued) %hotkeyselectnone;~ Command `ProCmdDatumPlane` ;\
 mapkey(continued) ~ FocusIn `Odui_Dlg_00` `t1.constrs_table`;\
-mapkey(continued) ~ Trigger `Odui_Dlg_00` `t1.constrs_table`2  `` ``;\
-mapkey(continued) %hotkeyselectcoord;\
+mapkey(continued) ~ Trigger `Odui_Dlg_00` `t1.constrs_table`2  `` ``;%hotkeyselectcoord;\
 mapkey(continued) ~ Select `Odui_Dlg_00` `t1.constr_type1` 1  `Offset`;\
 mapkey(continued) ~ Select `Odui_Dlg_00` `t1.constr_csys_axis`1  `Axis_X`;\
 mapkey(continued) ~ Input `Odui_Dlg_00` `t1.constr_dim1` `0`;\
@@ -573,11 +512,9 @@ mapkey(continued) ~ Update `Odui_Dlg_00` `t3.datum_plane_name` `Right`;\
 mapkey(continued) ~ Activate `Odui_Dlg_00` `t3.datum_plane_name`;\
 mapkey(continued) ~ Activate `Odui_Dlg_00` `stdbtn_1`;
 mapkey bctz @MANUAL_PAUSE请将要使用的坐标系改名未“DEFCS”，然后继续...;\
-mapkey(continued) %hotkeyselectnone;\
-mapkey(continued) ~ Command `ProCmdDatumPlane` ;\
+mapkey(continued) %hotkeyselectnone;~ Command `ProCmdDatumPlane` ;\
 mapkey(continued) ~ FocusIn `Odui_Dlg_00` `t1.constrs_table`;\
-mapkey(continued) ~ Trigger `Odui_Dlg_00` `t1.constrs_table`2  `` ``;\
-mapkey(continued) %hotkeyselectcoord;\
+mapkey(continued) ~ Trigger `Odui_Dlg_00` `t1.constrs_table`2  `` ``;%hotkeyselectcoord;\
 mapkey(continued) ~ Select `Odui_Dlg_00` `t1.constr_type1` 1  `Offset`;\
 mapkey(continued) ~ Select `Odui_Dlg_00` `t1.constr_csys_axis`1  `Axis_Y`;\
 mapkey(continued) ~ Input `Odui_Dlg_00` `t1.constr_dim1` `0`;\
@@ -589,11 +526,9 @@ mapkey(continued) ~ Update `Odui_Dlg_00` `t3.datum_plane_name` `Top`;\
 mapkey(continued) ~ Activate `Odui_Dlg_00` `t3.datum_plane_name`;\
 mapkey(continued) ~ Activate `Odui_Dlg_00` `stdbtn_1`;
 mapkey bcdz @MANUAL_PAUSE请将要使用的坐标系改名未“DEFCS”，然后继续...;\
-mapkey(continued) %hotkeyselectnone;\
-mapkey(continued) ~ Command `ProCmdDatumPlane` ;\
+mapkey(continued) %hotkeyselectnone;~ Command `ProCmdDatumPlane` ;\
 mapkey(continued) ~ FocusIn `Odui_Dlg_00` `t1.constrs_table`;\
-mapkey(continued) ~ Trigger `Odui_Dlg_00` `t1.constrs_table`2  `` ``;\
-mapkey(continued) %hotkeyselectcoord;\
+mapkey(continued) ~ Trigger `Odui_Dlg_00` `t1.constrs_table`2  `` ``;%hotkeyselectcoord;\
 mapkey(continued) ~ Select `Odui_Dlg_00` `t1.constr_type1` 1  `Offset`;\
 mapkey(continued) ~ Select `Odui_Dlg_00` `t1.constr_csys_axis`1  `Axis_Z`;\
 mapkey(continued) ~ Input `Odui_Dlg_00` `t1.constr_dim1` `0`;\
@@ -603,12 +538,9 @@ mapkey(continued) ~ Select `Odui_Dlg_00` `pg_vis_tab`1  `tab_3`;\
 mapkey(continued) ~ Input `Odui_Dlg_00` `t3.datum_plane_name` `Front`;\
 mapkey(continued) ~ Update `Odui_Dlg_00` `t3.datum_plane_name` `Front`;\
 mapkey(continued) ~ Activate `Odui_Dlg_00` `t3.datum_plane_name`;\
-mapkey(continued) ~ Activate `Odui_Dlg_00` `stdbtn_1`;\
-mapkey(continued) %hotkeyselectnone;\
-mapkey(continued) ~ Command `ProCmdDatumPlane` ;\
-mapkey(continued) ~ FocusIn `Odui_Dlg_00` `t1.constrs_table`;\
-mapkey(continued) ~ Trigger `Odui_Dlg_00` `t1.constrs_table`2  `` ``;\
-mapkey(continued) %hotkeyselectcoord;\
+mapkey(continued) ~ Activate `Odui_Dlg_00` `stdbtn_1`;%hotkeyselectnone;\
+mapkey(continued) ~ Command `ProCmdDatumPlane` ;~ FocusIn `Odui_Dlg_00` `t1.constrs_table`;\
+mapkey(continued) ~ Trigger `Odui_Dlg_00` `t1.constrs_table`2  `` ``;%hotkeyselectcoord;\
 mapkey(continued) ~ Select `Odui_Dlg_00` `t1.constr_type1` 1  `Offset`;\
 mapkey(continued) ~ Select `Odui_Dlg_00` `t1.constr_csys_axis`1  `Axis_X`;\
 mapkey(continued) ~ Input `Odui_Dlg_00` `t1.constr_dim1` `0`;\
@@ -618,12 +550,9 @@ mapkey(continued) ~ Select `Odui_Dlg_00` `pg_vis_tab`1  `tab_3`;\
 mapkey(continued) ~ Input `Odui_Dlg_00` `t3.datum_plane_name` `Right`;\
 mapkey(continued) ~ Update `Odui_Dlg_00` `t3.datum_plane_name` `Right`;\
 mapkey(continued) ~ Activate `Odui_Dlg_00` `t3.datum_plane_name`;\
-mapkey(continued) ~ Activate `Odui_Dlg_00` `stdbtn_1`;\
-mapkey(continued) %hotkeyselectnone;\
-mapkey(continued) ~ Command `ProCmdDatumPlane` ;\
-mapkey(continued) ~ FocusIn `Odui_Dlg_00` `t1.constrs_table`;\
-mapkey(continued) ~ Trigger `Odui_Dlg_00` `t1.constrs_table`2  `` ``;\
-mapkey(continued) %hotkeyselectcoord;\
+mapkey(continued) ~ Activate `Odui_Dlg_00` `stdbtn_1`;%hotkeyselectnone;\
+mapkey(continued) ~ Command `ProCmdDatumPlane` ;~ FocusIn `Odui_Dlg_00` `t1.constrs_table`;\
+mapkey(continued) ~ Trigger `Odui_Dlg_00` `t1.constrs_table`2  `` ``;%hotkeyselectcoord;\
 mapkey(continued) ~ Select `Odui_Dlg_00` `t1.constr_type1` 1  `Offset`;\
 mapkey(continued) ~ Select `Odui_Dlg_00` `t1.constr_csys_axis`1  `Axis_Y`;\
 mapkey(continued) ~ Input `Odui_Dlg_00` `t1.constr_dim1` `0`;\
@@ -652,74 +581,57 @@ mapkey(continued) ~ Select `nameviewlist` `nv_list` 1  `Standard Orientation`;
 mapkey vcd ~ Command `ProCmdViewOrient` ;\
 mapkey(continued) ~ Select `orient` `SetupOptions`1  `orientbyref`;\
 mapkey(continued) ~ Activate `orient` `NmViewCheckBtn`1;\
-mapkey(continued) ~ Select `orient` `orientsurfPH.OrientRef1`1  `Front`;\
-mapkey(continued) %hotkeyselectfront;\
-mapkey(continued) ~ Select `orient` `orientsurfPH.OrientRef2`1  `Top`;\
-mapkey(continued) %hotkeyselecttop;\
+mapkey(continued) ~ Select `orient` `orientsurfPH.OrientRef1`1  `Front`;%hotkeyselectfront;\
+mapkey(continued) ~ Select `orient` `orientsurfPH.OrientRef2`1  `Top`;%hotkeyselecttop;\
 mapkey(continued) ~ Activate `GET SELECT` `done_sel`;\
 mapkey(continued) ~ Input `orient` `namedviewPH.NameVw_IP` `Front`;\
 mapkey(continued) ~ Update `orient` `namedviewPH.NameVw_IP` `Front`;\
 mapkey(continued) ~ Activate `orient` `namedviewPH.NameVw_IP`;\
 mapkey(continued) ~ Activate `orient` `namedviewPH.NameVw_PB_Save`;\
-mapkey(continued) ~ Select `orient` `orientsurfPH.OrientRef1`1  `Back`;\
-mapkey(continued) %hotkeyselectfront;\
-mapkey(continued) ~ Select `orient` `orientsurfPH.OrientRef2`1  `Top`;\
-mapkey(continued) %hotkeyselecttop;\
+mapkey(continued) ~ Select `orient` `orientsurfPH.OrientRef1`1  `Back`;%hotkeyselectfront;\
+mapkey(continued) ~ Select `orient` `orientsurfPH.OrientRef2`1  `Top`;%hotkeyselecttop;\
 mapkey(continued) ~ Activate `GET SELECT` `done_sel`;\
 mapkey(continued) ~ Input `orient` `namedviewPH.NameVw_IP` `Back`;\
 mapkey(continued) ~ Update `orient` `namedviewPH.NameVw_IP` `Back`;\
 mapkey(continued) ~ Activate `orient` `namedviewPH.NameVw_IP`;\
 mapkey(continued) ~ Activate `orient` `namedviewPH.NameVw_PB_Save`;\
-mapkey(continued) ~ Select `orient` `orientsurfPH.OrientRef1`1  `Front`;\
-mapkey(continued) %hotkeyselectright;\
-mapkey(continued) ~ Select `orient` `orientsurfPH.OrientRef2`1  `Top`;\
-mapkey(continued) %hotkeyselecttop;\
+mapkey(continued) ~ Select `orient` `orientsurfPH.OrientRef1`1  `Front`;%hotkeyselectright;\
+mapkey(continued) ~ Select `orient` `orientsurfPH.OrientRef2`1  `Top`;%hotkeyselecttop;\
 mapkey(continued) ~ Activate `GET SELECT` `done_sel`;\
 mapkey(continued) ~ Input `orient` `namedviewPH.NameVw_IP` `Right`;\
 mapkey(continued) ~ Update `orient` `namedviewPH.NameVw_IP` `Right`;\
 mapkey(continued) ~ Activate `orient` `namedviewPH.NameVw_IP`;\
 mapkey(continued) ~ Activate `orient` `namedviewPH.NameVw_PB_Save`;\
-mapkey(continued) ~ Select `orient` `orientsurfPH.OrientRef1`1  `Back`;\
-mapkey(continued) %hotkeyselectright;\
-mapkey(continued) ~ Select `orient` `orientsurfPH.OrientRef2`1  `Top`;\
-mapkey(continued) %hotkeyselecttop;\
+mapkey(continued) ~ Select `orient` `orientsurfPH.OrientRef1`1  `Back`;%hotkeyselectright;\
+mapkey(continued) ~ Select `orient` `orientsurfPH.OrientRef2`1  `Top`;%hotkeyselecttop;\
 mapkey(continued) ~ Activate `GET SELECT` `done_sel`;\
 mapkey(continued) ~ Input `orient` `namedviewPH.NameVw_IP` `Left`;\
 mapkey(continued) ~ Update `orient` `namedviewPH.NameVw_IP` `Left`;\
 mapkey(continued) ~ Activate `orient` `namedviewPH.NameVw_IP`;\
 mapkey(continued) ~ Activate `orient` `namedviewPH.NameVw_PB_Save`;\
-mapkey(continued) ~ Select `orient` `orientsurfPH.OrientRef1`1  `Front`;\
-mapkey(continued) %hotkeyselecttop;\
-mapkey(continued) ~ Select `orient` `orientsurfPH.OrientRef2`1  `Bottom`;\
-mapkey(continued) %hotkeyselectfront;\
+mapkey(continued) ~ Select `orient` `orientsurfPH.OrientRef1`1  `Front`;%hotkeyselecttop;\
+mapkey(continued) ~ Select `orient` `orientsurfPH.OrientRef2`1  `Bottom`;%hotkeyselectfront;\
 mapkey(continued) ~ Activate `GET SELECT` `done_sel`;\
 mapkey(continued) ~ Input `orient` `namedviewPH.NameVw_IP` `Top`;\
 mapkey(continued) ~ Update `orient` `namedviewPH.NameVw_IP` `Top`;\
 mapkey(continued) ~ Activate `orient` `namedviewPH.NameVw_IP`;\
 mapkey(continued) ~ Activate `orient` `namedviewPH.NameVw_PB_Save`;\
-mapkey(continued) ~ Select `orient` `orientsurfPH.OrientRef1`1  `Back`;\
-mapkey(continued) %hotkeyselecttop;\
-mapkey(continued) ~ Select `orient` `orientsurfPH.OrientRef2`1  `Top`;\
-mapkey(continued) %hotkeyselectfront;\
+mapkey(continued) ~ Select `orient` `orientsurfPH.OrientRef1`1  `Back`;%hotkeyselecttop;\
+mapkey(continued) ~ Select `orient` `orientsurfPH.OrientRef2`1  `Top`;%hotkeyselectfront;\
 mapkey(continued) ~ Activate `GET SELECT` `done_sel`;\
 mapkey(continued) ~ Input `orient` `namedviewPH.NameVw_IP` `Bottom`;\
 mapkey(continued) ~ Update `orient` `namedviewPH.NameVw_IP` `Bottom`;\
 mapkey(continued) ~ Activate `orient` `namedviewPH.NameVw_IP`;\
-mapkey(continued) ~ Activate `orient` `namedviewPH.NameVw_PB_Save`;\
-mapkey(continued) ~ Activate `orient` `OkPB`;
+mapkey(continued) ~ Activate `orient` `namedviewPH.NameVw_PB_Save`;~ Activate `orient` `OkPB`;
 mapkey vsa ~ Command `ProCmdSketDispDims` 1;
 mapkey vss ~ Command `ProCmdSketDispConstr` 1;
 mapkey vsd ~ Command `ProCmdSketDispGrid` 1;
 mapkey vsf ~ Command `ProCmdSketDispVerts` 1;
 mapkey vsr ~ Command `ProCmdViewSketchView`;
-mapkey $F9 ~ Command `ProCmdEnvDtmDisp` 1;\
-mapkey(continued) ~ Command `ProCmdViewRepaint`;
-mapkey $F10 ~ Command `ProCmdEnvAxisDisp` 1;\
-mapkey(continued) ~ Command `ProCmdViewRepaint`;
-mapkey $F11 ~ Command `ProCmdEnvPntsDisp` 1;\
-mapkey(continued) ~ Command `ProCmdViewRepaint`;
-mapkey $F12 ~ Command `ProCmdEnvCsysDisp` 1;\
-mapkey(continued) ~ Command `ProCmdViewRepaint`;
+mapkey $F9 ~ Command `ProCmdEnvDtmDisp` 1;~ Command `ProCmdViewRepaint`;
+mapkey $F10 ~ Command `ProCmdEnvAxisDisp` 1;~ Command `ProCmdViewRepaint`;
+mapkey $F11 ~ Command `ProCmdEnvPntsDisp` 1;~ Command `ProCmdViewRepaint`;
+mapkey $F12 ~ Command `ProCmdEnvCsysDisp` 1;~ Command `ProCmdViewRepaint`;
 mapkey ` ~ Activate `main_dlg_cur` `resizer_button_1` 1;
 mapkey $F5 ~ Command `ProCmdEnvMdlDisp`  `No hidden`;\
 mapkey(continued) ~ Command `ProCmdViewRepaint`;
@@ -734,64 +646,50 @@ mapkey(continued) ~ Select `visual_dlg0` `RadioSelApplMgr`1  `xsec`;\
 mapkey(continued) ~ Activate `visual_dlg0` `ZoneNmCreate`;\
 mapkey(continued) ~ Input `visual_dlg0` `Table_INPUT` `Front`;\
 mapkey(continued) ~ Update `visual_dlg0` `Table_INPUT` `Front`;\
-mapkey(continued) ~ Activate `visual_dlg0` `Table_INPUT`;\
-mapkey(continued) #DONE;\
-mapkey(continued) %hotkeyselectfront;\
-mapkey(continued) ~ Select `visual_dlg0` `DisplayCascadeBtn`;\
-mapkey(continued) ~ Activate `visual_dlg0` `SetBtn`;\
+mapkey(continued) ~ Activate `visual_dlg0` `Table_INPUT`;#DONE;%hotkeyselectfront;\
+mapkey(continued) ~ Select `visual_dlg0` `DisplayCascadeBtn`;~ Activate `visual_dlg0` `SetBtn`;\
 mapkey(continued) ~ Activate `visual_dlg0` `CloseBtn`;
 mapkey vxr ~ Command `ProCmdViewVisTool`;\
 mapkey(continued) ~ Select `visual_dlg0` `RadioSelApplMgr`1  `xsec`;\
 mapkey(continued) ~ Activate `visual_dlg0` `ZoneNmCreate`;\
 mapkey(continued) ~ Input `visual_dlg0` `Table_INPUT` `Right`;\
 mapkey(continued) ~ Update `visual_dlg0` `Table_INPUT` `Right`;\
-mapkey(continued) ~ Activate `visual_dlg0` `Table_INPUT`;\
-mapkey(continued) #DONE;\
-mapkey(continued) %hotkeyselectright;\
-mapkey(continued) ~ Select `visual_dlg0` `DisplayCascadeBtn`;\
-mapkey(continued) ~ Activate `visual_dlg0` `SetBtn`;\
+mapkey(continued) ~ Activate `visual_dlg0` `Table_INPUT`;#DONE;%hotkeyselectright;\
+mapkey(continued) ~ Select `visual_dlg0` `DisplayCascadeBtn`;~ Activate `visual_dlg0` `SetBtn`;\
 mapkey(continued) ~ Activate `visual_dlg0` `CloseBtn`;
 mapkey vxt ~ Command `ProCmdViewVisTool`;\
 mapkey(continued) ~ Select `visual_dlg0` `RadioSelApplMgr`1  `xsec`;\
 mapkey(continued) ~ Activate `visual_dlg0` `ZoneNmCreate`;\
 mapkey(continued) ~ Input `visual_dlg0` `Table_INPUT` `Top`;\
 mapkey(continued) ~ Update `visual_dlg0` `Table_INPUT` `Top`;\
-mapkey(continued) ~ Activate `visual_dlg0` `Table_INPUT`;\
-mapkey(continued) #DONE;\
-mapkey(continued) %hotkeyselecttop;\
-mapkey(continued) ~ Select `visual_dlg0` `DisplayCascadeBtn`;\
-mapkey(continued) ~ Activate `visual_dlg0` `SetBtn`;\
+mapkey(continued) ~ Activate `visual_dlg0` `Table_INPUT`;#DONE;%hotkeyselecttop;\
+mapkey(continued) ~ Select `visual_dlg0` `DisplayCascadeBtn`;~ Activate `visual_dlg0` `SetBtn`;\
 mapkey(continued) ~ Activate `visual_dlg0` `CloseBtn`;
 mapkey vxz ~ Command `ProCmdViewVisTool`;\
 mapkey(continued) ~ Select `visual_dlg0` `RadioSelApplMgr`1  `xsec`;\
 mapkey(continued) ~ Activate `visual_dlg0` `ZoneNmCreate`;\
 mapkey(continued) ~ Input `visual_dlg0` `Table_INPUT` `User`;\
 mapkey(continued) ~ Update `visual_dlg0` `Table_INPUT` `User`;\
-mapkey(continued) ~ Activate `visual_dlg0` `Table_INPUT`;\
-mapkey(continued) #DONE;
+mapkey(continued) ~ Activate `visual_dlg0` `Table_INPUT`;#DONE;
 mapkey vxvf ~ Command `ProCmdViewVisTool`;\
 mapkey(continued) ~ Select `visual_dlg0` `RadioSelApplMgr`1  `xsec`;\
 mapkey(continued) ~ Activate `visual_dlg0` `Table`2  `front` `name_column`;\
-mapkey(continued) ~ Activate `visual_dlg0` `CloseBtn`;\
-mapkey(continued) ~ Command `ProCmdViewNamePick` 1;\
+mapkey(continued) ~ Activate `visual_dlg0` `CloseBtn`;~ Command `ProCmdViewNamePick` 1;\
 mapkey(continued) ~ Select `nameviewlist` `nv_list` 1  `FRONT`;
 mapkey vxvr ~ Command `ProCmdViewVisTool`;\
 mapkey(continued) ~ Select `visual_dlg0` `RadioSelApplMgr`1  `xsec`;\
 mapkey(continued) ~ Activate `visual_dlg0` `Table`2  `right` `name_column`;\
-mapkey(continued) ~ Activate `visual_dlg0` `CloseBtn`;\
-mapkey(continued) ~ Command `ProCmdViewNamePick` 1;\
+mapkey(continued) ~ Activate `visual_dlg0` `CloseBtn`;~ Command `ProCmdViewNamePick` 1;\
 mapkey(continued) ~ Select `nameviewlist` `nv_list` 1  `RIGHT`;
 mapkey vxvt ~ Command `ProCmdViewVisTool`;\
 mapkey(continued) ~ Select `visual_dlg0` `RadioSelApplMgr`1  `xsec`;\
 mapkey(continued) ~ Activate `visual_dlg0` `Table`2  `top` `name_column`;\
-mapkey(continued) ~ Activate `visual_dlg0` `CloseBtn`;\
-mapkey(continued) ~ Command `ProCmdViewNamePick` 1;\
+mapkey(continued) ~ Activate `visual_dlg0` `CloseBtn`;~ Command `ProCmdViewNamePick` 1;\
 mapkey(continued) ~ Select `nameviewlist` `nv_list` 1  `TOP`;
 mapkey vxvz ~ Command `ProCmdViewVisTool`;\
 mapkey(continued) ~ Select `visual_dlg0` `RadioSelApplMgr`1  `xsec`;\
 mapkey(continued) ~ Activate `visual_dlg0` `Table`2  `no cross section` `name_column`;\
-mapkey(continued) ~ Activate `visual_dlg0` `CloseBtn`;\
-mapkey(continued) ~ Command `ProCmdViewNamePick` 1;\
+mapkey(continued) ~ Activate `visual_dlg0` `CloseBtn`;~ Command `ProCmdViewNamePick` 1;\
 mapkey(continued) ~ Select `nameviewlist` `nv_list` 1  `Standard Orientation`;
 mapkey vew ~ Command `ProCmdViewLyrs` 1;
 mapkey veq ~ Command `ProCmdViewLyrs` 0;
@@ -889,69 +787,54 @@ mapkey vsety ~ Command `ProCmdViewAppearances`;
 mapkey vsetm ~ Command `ProCmdViewMdlDisp`;
 mapkey vsetx ~ Command `ProCmdUtilColorsSys`;
 mapkey vsetj ~ Command `ProCmdViewDtmDisp`;
-mapkey vwr ~ Resize `main_dlg_cur` `main_dlg_cur` 4 0.000000 0.000000 32.344198 25.700130;\
-mapkey(continued) ~ Move `main_dlg_cur` `main_dlg_cur` 2 0.000000 0.000000;
-mapkey vwx ~ Resize `main_dlg_cur` `main_dlg_cur` 4 -0.146023 -0.146023 37.382008 25.992177;\
+mapkey vwr ~ Resize `main_dlg_cur` `main_dlg_cur` 4 0.000000 0.000000 \
+mapkey(continued) 32.344198 25.700130;~ Move `main_dlg_cur` `main_dlg_cur` 2 0.000000 0.000000;
+mapkey vwx ~ Resize `main_dlg_cur` `main_dlg_cur` 4 -0.146023 -0.146023 \
+mapkey(continued) 37.382008 25.992177;\
 mapkey(continued) ~ Move `main_dlg_cur` `main_dlg_cur` 2 -0.146023 -0.146023 ;
 mapkey vv ~ Command `ProCmdViewVisTool`;\
 mapkey(continued) ~ Activate `visual_dlg0` `visual_dlg0`;
 mapkey vk ~ Command `ProCmdViewVisibilities`;
-mapkey nprt ~ Command `ProCmdModelNew`;\
-mapkey(continued) ~ Select `new` `Type` 1  `Part`;\
+mapkey nprt ~ Command `ProCmdModelNew`;~ Select `new` `Type` 1  `Part`;\
 mapkey(continued) ~ Select `new` `part` 1  `Solid`;\
-mapkey(continued) ~ Activate `new` `chk_use_default_template` 0 ;\
-mapkey(continued) ~ Activate `new` `OK`;\
+mapkey(continued) ~ Activate `new` `chk_use_default_template` 0 ;~ Activate `new` `OK`;\
 mapkey(continued) ~ Select `new_file_opts` `lst_template_names` 1  `mmns_part_solid`;\
 mapkey(continued) ~ Activate `new_file_opts` `psh_ok`;
-mapkey nsec ~ Command `ProCmdModelNew`;\
-mapkey(continued) ~ Select `new` `Type` 1  `Sketch`;\
+mapkey nsec ~ Command `ProCmdModelNew`;~ Select `new` `Type` 1  `Sketch`;\
 mapkey(continued) ~ Activate `new` `OK`;
-mapkey ndrwh ~ Command `ProCmdModelNew`;\
-mapkey(continued) ~ Select `new` `Type` 1  `Drawing`;\
-mapkey(continued) ~ Activate `new` `chk_use_default_template` 0;\
-mapkey(continued) ~ Activate `new` `OK`;\
+mapkey ndrwh ~ Command `ProCmdModelNew`;~ Select `new` `Type` 1  `Drawing`;\
+mapkey(continued) ~ Activate `new` `chk_use_default_template` 0;~ Activate `new` `OK`;\
 mapkey(continued) ~ Select `dwg_create` `rad_format` 1  `1`;\
 mapkey(continued) ~ Activate `dwg_create` `psh_browse`;\
-mapkey(continued) ~ Input `file_open` `opt_EMBED_BROWSER_TB_SAB_LAYOUT` \
-mapkey(continued) `D:\\pro.e\\\\Template`;\
-mapkey(continued) ~ Update `file_open` `opt_EMBED_BROWSER_TB_SAB_LAYOUT` \
-mapkey(continued) `D:\\pro.e\\\\Template`;\
+mapkey(continued) ~ Input `file_open` `opt_EMBED_BROWSER_TB_SAB_LAYOUT` `D:\\pro.e\\Template`;\
+mapkey(continued) ~ Update `file_open` `opt_EMBED_BROWSER_TB_SAB_LAYOUT` `D:\\pro.e\\Template`;\
 mapkey(continued) ~ Activate `file_open` `opt_EMBED_BROWSER_TB_SAB_LAYOUT`;\
 mapkey(continued) ~ Activate `file_open` `Ph_list.Filelist` 1 `A4_4View_H.drw`;\
 mapkey(continued) ~ Activate `dwg_create` `psh_ok`;\
 mapkey(continued) ~ Resize `main_dlg_cur` `main_dlg_cur` 4 -0.146023 -0.146023 37.382008 \
-mapkey(continued) 25.992177;\
-mapkey(continued) ~ Move `main_dlg_cur` `main_dlg_cur` 2 -0.146023 -0.146023 ;\
+mapkey(continued) 25.992177;~ Move `main_dlg_cur` `main_dlg_cur` 2 -0.146023 -0.146023 ;\
 mapkey(continued) ~ Move `main_dlg_cur` `drawinarea_resizer` 3 -1024 2 0;
-mapkey ndrwv ~ Command `ProCmdModelNew`;\
-mapkey(continued) ~ Select `new` `Type` 1  `Drawing`;\
-mapkey(continued) ~ Activate `new` `chk_use_default_template` 0;\
-mapkey(continued) ~ Activate `new` `OK`;\
+mapkey ndrwv ~ Command `ProCmdModelNew`;~ Select `new` `Type` 1  `Drawing`;\
+mapkey(continued) ~ Activate `new` `chk_use_default_template` 0;~ Activate `new` `OK`;\
 mapkey(continued) ~ Select `dwg_create` `rad_format` 1  `1`;\
 mapkey(continued) ~ Activate `dwg_create` `psh_browse`;\
-mapkey(continued) ~ Input `file_open` `opt_EMBED_BROWSER_TB_SAB_LAYOUT` \
-mapkey(continued) `D:\\pro.e\\\\Template`;\
-mapkey(continued) ~ Update `file_open` `opt_EMBED_BROWSER_TB_SAB_LAYOUT` \
-mapkey(continued) `D:\\pro.e\\\\Template`;\
+mapkey(continued) ~ Input `file_open` `opt_EMBED_BROWSER_TB_SAB_LAYOUT` `D:\\pro.e\\Template`;\
+mapkey(continued) ~ Update `file_open` `opt_EMBED_BROWSER_TB_SAB_LAYOUT` `D:\\pro.e\\Template`;\
 mapkey(continued) ~ Activate `file_open` `opt_EMBED_BROWSER_TB_SAB_LAYOUT`;\
 mapkey(continued) ~ Activate `file_open` `Ph_list.Filelist` 1 `A4_4View_V.drw`;\
 mapkey(continued) ~ Activate `dwg_create` `psh_ok`;\
 mapkey(continued) ~ Resize `main_dlg_cur` `main_dlg_cur` 4 -0.146023 -0.146023 37.382008 \
-mapkey(continued) 25.992177;\
-mapkey(continued) ~ Move `main_dlg_cur` `main_dlg_cur` 2 -0.146023 -0.146023 ;\
+mapkey(continued) 25.992177;~ Move `main_dlg_cur` `main_dlg_cur` 2 -0.146023 -0.146023 ;\
 mapkey(continued) ~ Move `main_dlg_cur` `drawinarea_resizer` 3 -1024 2 0;
-mapkey nasm ~ Command `ProCmdModelNew` ;\
-mapkey(continued) ~ Select `new` `Type` 1  `Assembly`;\
+mapkey nasm ~ Command `ProCmdModelNew` ;~ Select `new` `Type` 1  `Assembly`;\
 mapkey(continued) ~ Select `new` `RadioGroup9` 1  `Regular`;\
-mapkey(continued) ~ Activate `new` `chk_use_default_template` 0 ;\
-mapkey(continued) ~ Activate `new` `OK`;\
+mapkey(continued) ~ Activate `new` `chk_use_default_template` 0 ;~ Activate `new` `OK`;\
 mapkey(continued) ~ Select `new_file_opts` `lst_template_names` 1  `mmns_asm_design`;\
 mapkey(continued) ~ Activate `new_file_opts` `psh_ok`;
 mapkey nmfg ~ Command `ProCmdModelNew` ;\
 mapkey(continued) ~ Select `new` `Type` 1  `Manufacturing`;\
 mapkey(continued) ~ Select `new` `RadioGroup10` 1  `Mold`;\
-mapkey(continued) ~ Activate `new` `chk_use_default_template` 0 ;\
-mapkey(continued) ~ Activate `new` `OK`;\
+mapkey(continued) ~ Activate `new` `chk_use_default_template` 0 ;~ Activate `new` `OK`;\
 mapkey(continued) ~ Select `new_file_opts` `lst_template_names` 1  `mmns_mfg_mold`;\
 mapkey(continued) ~ Activate `new_file_opts` `psh_ok`;
 mapkey new ~ Command `ProCmdModelNew`;
@@ -961,47 +844,37 @@ mapkey odwg ~ Command `ProCmdModelOpen`;\
 mapkey(continued) ~ Select `file_open` `Type` 1  `db_560`;
 mapkey oneu ~ Command `ProCmdModelOpen`;\
 mapkey(continued) ~ Select `file_open` `Type` 1  `db_198`;
-mapkey $F3 ~ Command `ProCmdModelOpen`;\
-mapkey(continued) ~ Select `file_open` `Type` 1 `db_-1`;
+mapkey $F3 ~ Command `ProCmdModelOpen`;~ Select `file_open` `Type` 1 `db_-1`;
 mapkey wsdwg ~ Command `ProCmdModelSaveAs`;\
 mapkey(continued) ~ Select `file_saveas` `type_option`1  `db_560`;\
-mapkey(continued) ~ Activate `file_saveas` `OK`;\
-mapkey(continued) ~ Activate `export_2d_dlg` `OK_Button`;
+mapkey(continued) ~ Activate `file_saveas` `OK`;~ Activate `export_2d_dlg` `OK_Button`;
 mapkey wspdf1 ~ Command `ProCmdModelSaveAs` ;\
 mapkey(continued) ~ Select `file_saveas` `type_option` 1  `db_922`;\
-mapkey(continued) ~ Activate `file_saveas` `OK`;\
-mapkey(continued) ~ Activate `intf_pdf` `pdf_launch_viewer` 0;\
+mapkey(continued) ~ Activate `file_saveas` `OK`;~ Activate `intf_pdf` `pdf_launch_viewer` 0;\
 mapkey(continued) ~ Select `intf_pdf` `pdf_color_depth` 1  `pdf_color`;\
 mapkey(continued) ~ Activate `intf_pdf` `pdf_btn_ok`;
 mapkey wspdf2 ~ Command `ProCmdModelSaveAs` ;\
 mapkey(continued) ~ Select `file_saveas` `type_option` 1  `db_922`;\
-mapkey(continued) ~ Activate `file_saveas` `OK`;\
-mapkey(continued) ~ Activate `intf_pdf` `pdf_launch_viewer` 0;\
+mapkey(continued) ~ Activate `file_saveas` `OK`;~ Activate `intf_pdf` `pdf_launch_viewer` 0;\
 mapkey(continued) ~ Select `intf_pdf` `pdf_color_depth` 1  `pdf_gray`;\
 mapkey(continued) ~ Activate `intf_pdf` `pdf_btn_ok`;
 mapkey wspdf3 ~ Command `ProCmdModelSaveAs` ;\
 mapkey(continued) ~ Select `file_saveas` `type_option` 1  `db_922`;\
-mapkey(continued) ~ Activate `file_saveas` `OK`;\
-mapkey(continued) ~ Activate `intf_pdf` `pdf_launch_viewer` 0;\
+mapkey(continued) ~ Activate `file_saveas` `OK`;~ Activate `intf_pdf` `pdf_launch_viewer` 0;\
 mapkey(continued) ~ Select `intf_pdf` `pdf_color_depth` 1  `pdf_mono`;\
 mapkey(continued) ~ Activate `intf_pdf` `pdf_btn_ok`;
 mapkey wsigs ~ Command `ProCmdModelSaveAs`;\
 mapkey(continued) ~ Select `file_saveas` `type_option` 1  `db_134`;\
-mapkey(continued) ~ Activate `file_saveas` `OK`;\
-mapkey(continued) ~ Activate `intf_export` `OkPushBtn`;
+mapkey(continued) ~ Activate `file_saveas` `OK`;~ Activate `intf_export` `OkPushBtn`;
 mapkey wsneu ~ Command `ProCmdModelSaveAs`;\
 mapkey(continued) ~ Select `file_saveas` `type_option` 1  `db_198`;\
-mapkey(continued) ~ Activate `file_saveas` `OK`;\
-mapkey(continued) ~ Activate `intf_export` `OkPushBtn`;
+mapkey(continued) ~ Activate `file_saveas` `OK`;~ Activate `intf_export` `OkPushBtn`;
 mapkey wbf ~ Command `ProCmdModelBackup`;
 mapkey wes ~ Command `ProCmdModelSaveAs`;
-mapkey $F4 ~ Command `ProCmdModelSave`;\
-mapkey(continued) ~ Activate `file_saveas` `OK`;
+mapkey $F4 ~ Command `ProCmdModelSave`;~ Activate `file_saveas` `OK`;
 mapkey wc ~ Activate `main_dlg_cur` `dashInst0.Quit`;\
-mapkey(continued) ~ Activate `UI Message Dialog` `yes`;\
-mapkey(continued) ~ Command `ProCmdMillVolumeCnclBtn`;\
-mapkey(continued) ~ Activate `0_std_confirm` `OK`;\
-mapkey(continued) ~ Activate `main_dlg_cur` `psh_erase`;\
+mapkey(continued) ~ Activate `UI Message Dialog` `yes`;~ Command `ProCmdMillVolumeCnclBtn`;\
+mapkey(continued) ~ Activate `0_std_confirm` `OK`;~ Activate `main_dlg_cur` `psh_erase`;\
 mapkey(continued) ~ Activate `0_std_confirm` `OK``;
 mapkey wec ~ Activate `main_dlg_cur` `File.psh_close_win`;\
 mapkey(continued) ~ Activate `main_dlg_cur` `File.psh_close_win`;\
@@ -1013,8 +886,7 @@ mapkey(continued) ~ Activate `main_dlg_cur` `File.psh_close_win`;\
 mapkey(continued) ~ Activate `main_dlg_cur` `File.psh_close_win`;\
 mapkey(continued) ~ Activate `main_dlg_cur` `File.psh_close_win`;\
 mapkey(continued) ~ Activate `main_dlg_cur` `File.psh_close_win`;\
-mapkey(continued) ~ Activate `UI Message Dialog` `yes`;\
-mapkey(continued) ~ Activate `UI Message Dialog` `yes`;\
+mapkey(continued) ~ Activate `UI Message Dialog` `yes`;~ Activate `UI Message Dialog` `yes`;\
 mapkey(continued) ~ Activate `0_std_confirm` `OK`;\
 mapkey(continued) ~ Activate `main_dlg_cur` `File.psh_close_win`;\
 mapkey(continued) ~ Activate `main_dlg_cur` `File.psh_close_win`;\
@@ -1026,57 +898,42 @@ mapkey(continued) ~ Activate `main_dlg_cur` `File.psh_close_win`;\
 mapkey(continued) ~ Activate `main_dlg_cur` `File.psh_close_win`;\
 mapkey(continued) ~ Activate `main_dlg_cur` `File.psh_close_win`;\
 mapkey(continued) ~ Activate `main_dlg_cur` `File.psh_close_win`;\
-mapkey(continued) ~ Command `ProCmdModelEraseNotDisp`;\
-mapkey(continued) ~ Activate `file_erase_nd` `ok_pb`;
+mapkey(continued) ~ Command `ProCmdModelEraseNotDisp`;~ Activate `file_erase_nd` `ok_pb`;
 mapkey wsm ~ Command `ProCmdMmDeclare`;
-mapkey wp ~ Command `ProCmdModelPrint`;\
-mapkey(continued) ~ Activate `print` `Configure`;
-mapkey wep ~ Command `ProCmdModelPrint`;\
-mapkey(continued) ~ Activate `print` `OK`;
+mapkey wp ~ Command `ProCmdModelPrint`;~ Activate `print` `Configure`;
+mapkey wep ~ Command `ProCmdModelPrint`;~ Activate `print` `OK`;
 mapkey wa ~ Activate `main_dlg_cur` `Windows.psh_win_activate`;
 mapkey $F1 ~ Command `ProCmdSessionChangeDir`;
-mapkey $F2 ~ Command `ProCmdModelRename`;\
-mapkey(continued) ~ Input `rename` `InputPanel2`  ``;\
+mapkey $F2 ~ Command `ProCmdModelRename`;~ Input `rename` `InputPanel2`  ``;\
 mapkey(continued) ~ Update `rename` `InputPanel2`  ``;
-mapkey wext ~ Command `ProCmdExit`;\
-mapkey(continued) ~ Activate `UI Message Dialog` `yes`;
+mapkey wext ~ Command `ProCmdExit`;~ Activate `UI Message Dialog` `yes`;
 mapkey eset ~ Command `ProCmdMmSetup`;
-mapkey esd ~ Command `ProCmdMmSetup`;\
-mapkey(continued) #UNITS;\
+mapkey esd ~ Command `ProCmdMmSetup`;#UNITS;\
 mapkey(continued) ~ Select `um_finder` `Sys_UnitsTab` 1  `SystemsLayout`;\
 mapkey(continued) ~ Select `um_finder` `SystemsFinderList` 1  `sysunits7`;\
 mapkey(continued) ~ Activate `um_finder` `PrincipalPush`;\
 mapkey(continued) ~ Activate `um_sys_conv_new` `um_sys_conv_new`;\
 mapkey(continued) ~ Select `um_sys_conv_new` `ConvertRadio` 1  `convert numbers`;\
-mapkey(continued) ~ Activate `um_sys_conv_new` `OKStd`;\
-mapkey(continued) ~ Activate `um_finder` `ClosePush`;\
+mapkey(continued) ~ Activate `um_sys_conv_new` `OKStd`;~ Activate `um_finder` `ClosePush`;\
 mapkey(continued) #DONE;
-mapkey esbd ~ Command `ProCmdMmSetup`;\
-mapkey(continued) #UNITS;\
+mapkey esbd ~ Command `ProCmdMmSetup`;#UNITS;\
 mapkey(continued) ~ Select `um_finder` `Sys_UnitsTab` 1  `SystemsLayout`;\
 mapkey(continued) ~ Select `um_finder` `SystemsFinderList` 1  `sysunits7`;\
 mapkey(continued) ~ Activate `um_finder` `PrincipalPush`;\
 mapkey(continued) ~ Activate `um_sys_conv_new` `um_sys_conv_new`;\
 mapkey(continued) ~ Select `um_sys_conv_new` `ConvertRadio` 1  `interpret numbers`;\
-mapkey(continued) ~ Activate `um_sys_conv_new` `OKStd`;\
-mapkey(continued) ~ Activate `um_finder` `ClosePush`;\
+mapkey(continued) ~ Activate `um_sys_conv_new` `OKStd`;~ Activate `um_finder` `ClosePush`;\
 mapkey(continued) #DONE;
-mapkey ess ~ Command `ProCmdMmSetup`;\
-mapkey(continued) #SHRINKAGE;
-mapkey esj ~ Command `ProCmdMmSetup` ;\
-mapkey(continued) #ACCURACY;
+mapkey ess ~ Command `ProCmdMmSetup`;#SHRINKAGE;
+mapkey esj ~ Command `ProCmdMmSetup` ;#ACCURACY;
 mapkey err ~ Command `ProCmdRegenPart`;
 mapkey erd ~ Command `ProCmdViewRepaint`;
 mapkey etv ~ Command `ProCmdEditPasteSpecial`;
 mapkey ez ~ Command `ProCmdEditUndo`;
 mapkey ex ~ Command `ProCmdEditRedo` ;
 mapkey erz ~ Command `ProCmdAnnotationFeat`;
-mapkey ei ~ Command `ProCmdMmFeatOper` ;\
-mapkey(continued) #INSERT MODE;\
-mapkey(continued) #ACTIVATE;
-mapkey eui ~ Command `ProCmdMmFeatOper` ;\
-mapkey(continued) #INSERT MODE;\
-mapkey(continued) #CANCEL;
+mapkey ei ~ Command `ProCmdMmFeatOper` ;#INSERT MODE;#ACTIVATE;
+mapkey eui ~ Command `ProCmdMmFeatOper` ;#INSERT MODE;#CANCEL;
 mapkey csa ~ Command `ProCmdSketShadeClosedLoops` 1;
 mapkey css ~ Command `ProCmdSketHighOpenEnds` 1;
 mapkey csd ~ Command `ProCmdSketOverlapGeometry`;
