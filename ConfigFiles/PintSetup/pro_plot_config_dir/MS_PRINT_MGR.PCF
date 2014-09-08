@@ -1,0 +1,23 @@
+﻿MS_PRINT_MGR.PCF 
+
+plotter ms_print_mgr 
+button_name HP LaserJet 1020 
+button_help print using windows printer manager 
+plot_handshake software default 
+allow_file_naming yes 
+delete_after_plotting no 
+interface_quality 3 default 
+plot_destination printer default 
+paper_size a4 default 
+pen_slew 15 
+pen_table_file D:\pro.e\Pint_setup\plot_config\hp_1020.pnt 
+plot_sheets current default 
+plot_access create 
+plot_clip no 
+plot_drawing_format yes 
+plot_label no 
+plot_layer current 
+plot_linestyle_scale .25 
+plot_names no 
+plot_segmented no 
+plotter_command windows_print_manager 
