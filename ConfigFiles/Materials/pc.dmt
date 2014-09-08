@@ -1,0 +1,414 @@
+﻿V5.0
+#
+#
+# PGL Version 5.0
+#
+#
+# material name
+material_name "gold_ptc"
+# ambient color
+ambient_color 1.000000 0.717647 0.000000 1.000000
+# diffuse color
+diffuse_color 1.000000 0.717647 0.000000 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 0.900000
+# ambient
+ambient 0.900000
+# shine
+shine 0.300000
+# shine intensity
+intensity 0.600000
+# reflection
+reflection 0.750000
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "polished_steel_ptc"
+# ambient color
+ambient_color 0.392000 0.435294 0.486275 1.000000
+# diffuse color
+diffuse_color 0.392000 0.435294 0.486275 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 0.900000
+# ambient
+ambient 0.900000
+# shine
+shine 0.730000
+# shine intensity
+intensity 0.800000
+# reflection
+reflection 0.250000
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "copper_ptc"
+# ambient color
+ambient_color 0.345098 0.133333 0.078431 1.000000
+# diffuse color
+diffuse_color 0.345098 0.133333 0.078431 1.000000
+# specular color
+specular_color 0.392157 0.329412 0.301961 1.000000
+# diffuse
+diffuse 1.000000
+# ambient
+ambient 1.000000
+# shine
+shine 1.000000
+# shine intensity
+intensity 1.000000
+# reflection
+reflection 0.250000
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "titanium_ptc"
+# ambient color
+ambient_color 0.392157 0.356863 0.352941 1.000000
+# diffuse color
+diffuse_color 0.392157 0.356863 0.352941 1.000000
+# specular color
+specular_color 0.392157 0.392157 0.352941 1.000000
+# diffuse
+diffuse 0.690000
+# ambient
+ambient 0.600000
+# shine
+shine 1.000000
+# shine intensity
+intensity 1.000000
+# reflection
+reflection 0.400000
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "iron_ptc"
+# ambient color
+ambient_color 0.313725 0.313725 0.313725 1.000000
+# diffuse color
+diffuse_color 0.313725 0.313725 0.313725 1.000000
+# specular color
+specular_color 0.380392 0.380392 0.380392 1.000000
+# diffuse
+diffuse 0.800000
+# ambient
+ambient 0.500000
+# shine
+shine 0.130000
+# shine intensity
+intensity 0.130000
+# reflection
+reflection 0.000000
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "steel_ptc"
+# ambient color
+ambient_color 0.352941 0.352941 0.352941 1.000000
+# diffuse color
+diffuse_color 0.352941 0.352941 0.352941 1.000000
+# specular color
+specular_color 0.392157 0.392157 0.392157 1.000000
+# diffuse
+diffuse 1.000000
+# ambient
+ambient 1.000000
+# shine
+shine 1.000000
+# shine intensity
+intensity 1.000000
+# reflection
+reflection 0.300000
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "aluminum_ptc"
+# ambient color
+ambient_color 0.372549 0.372549 0.372549 1.000000
+# diffuse color
+diffuse_color 0.372549 0.372549 0.372549 1.000000
+# specular color
+specular_color 0.392157 0.392157 0.392157 1.000000
+# diffuse
+diffuse 1.000000
+# ambient
+ambient 0.700000
+# shine
+shine 1.000000
+# shine intensity
+intensity 1.000000
+# reflection
+reflection 0.240000
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "bronze_ptc"
+# ambient color
+ambient_color 0.509804 0.396078 0.105882 1.000000
+# diffuse color
+diffuse_color 0.509804 0.396078 0.105882 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 0.900000
+# ambient
+ambient 0.900000
+# shine
+shine 1.000000
+# shine intensity
+intensity 0.800000
+# reflection
+reflection 0.250000
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "brass_ptc"
+# ambient color
+ambient_color 0.509804 0.392157 0.254902 1.000000
+# diffuse color
+diffuse_color 0.509804 0.392157 0.254902 1.000000
+# specular color
+specular_color 0.686275 0.549020 0.392157 1.000000
+# diffuse
+diffuse 0.900000
+# ambient
+ambient 0.900000
+# shine
+shine 1.000000
+# shine intensity
+intensity 0.800000
+# reflection
+reflection 0.250000
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "magnesium_ptc"
+# ambient color
+ambient_color 0.392157 0.392157 0.392157 1.000000
+# diffuse color
+diffuse_color 0.392157 0.392157 0.392157 1.000000
+# specular color
+specular_color 0.380392 0.380392 0.380392 1.000000
+# diffuse
+diffuse 0.800000
+# ambient
+ambient 0.500000
+# shine
+shine 0.130000
+# shine intensity
+intensity 0.130000
+# reflection
+reflection 0.000000
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "pvc_ptc"
+# ambient color
+ambient_color 0.431373 0.431373 0.431373 1.000000
+# diffuse color
+diffuse_color 0.431373 0.431373 0.431373 1.000000
+# specular color
+specular_color 0.431373 0.431373 0.431373 1.000000
+# diffuse
+diffuse 0.800000
+# ambient
+ambient 0.500000
+# shine
+shine 0.560000
+# shine intensity
+intensity 0.070000
+# reflection
+reflection 0.030000
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "tungsten_ptc"
+# ambient color
+ambient_color 0.509804 0.490196 0.466667 1.000000
+# diffuse color
+diffuse_color 0.509804 0.490196 0.466667 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 0.500000
+# ambient
+ambient 0.500000
+# shine
+shine 0.000000
+# shine intensity
+intensity 0.000000
+# reflection
+reflection 0.000000
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "polished aluminum_ptc"
+# ambient color
+ambient_color 0.372549 0.372549 0.372549 1.000000
+# diffuse color
+diffuse_color 0.372549 0.372549 0.372549 1.000000
+# specular color
+specular_color 0.392157 0.392157 0.392157 1.000000
+# diffuse
+diffuse 1.000000
+# ambient
+ambient 0.700000
+# shine
+shine 1.000000
+# shine intensity
+intensity 1.000000
+# reflection
+reflection 0.370000
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "ss_ptc"
+# ambient color
+ambient_color 0.580000 0.560000 0.550196 1.000000
+# diffuse color
+diffuse_color 0.580000 0.560000 0.550196 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 0.800000
+# ambient
+ambient 0.640000
+# shine
+shine 0.400000
+# shine intensity
+intensity 0.400000
+# reflection
+reflection 0.200000
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "nylon_ptc"
+# ambient color
+ambient_color 1.000000 1.000000 1.000000 1.000000
+# diffuse color
+diffuse_color 1.000000 1.000000 1.000000 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 0.800000
+# ambient
+ambient 0.500000
+# shine
+shine 0.740000
+# shine intensity
+intensity 0.770000
+# reflection
+reflection 0.000000
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "epoxy_ptc"
+# ambient color
+ambient_color 0.878400 0.949000 1.000000 1.000000
+# diffuse color
+diffuse_color 0.878400 0.949000 1.000000 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 0.800000
+# ambient
+ambient 0.500000
+# shine
+shine 0.130000
+# shine intensity
+intensity 0.130000
+# reflection
+reflection 0.120000
+# transparency
+transparency 0.620000
+# fresnel index of refraction
+index_of_refraction 1.430000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "pc_new_app"
+# ambient color
+ambient_color 0.907834 0.907834 0.907834 1.000000
+# diffuse color
+diffuse_color 0.907834 0.907834 0.907834 1.000000
+# specular color
+specular_color 0.907834 0.907834 0.907834 1.000000
+# diffuse
+diffuse 1.000000
+# ambient
+ambient 1.000000
+# shine
+shine 0.500000
+# shine intensity
+intensity 1.000000
+# reflection
+reflection 0.250000
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
